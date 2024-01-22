@@ -3,19 +3,18 @@
 // Bob's Promise Function
 function bringPizza() {
     return new Promise((resolve, reject) => {
-      const willBringPizza = Math.random() < 0.8; // Bob is 80% reliable
-  
-      setTimeout(() => {
-        if (willBringPizza) {
+    const willBringPizza = Math.random() < 0.8;
+    setTimeout(() => {
+    if (willBringPizza) {
           resolve("Yay! Bob brought pizza!");
         } else {
           reject("Oh no! Bob forgot the pizza!");
         }
-      }, 2000); // Bob needs some time to decide and deliver
+      }, 2000); 
     });
   }
   
-  // Bob's Promise Execution
+  // 
   bringPizza()
     .then((successMessage) => {
       console.log(successMessage);

@@ -1,0 +1,18 @@
+MERN:
+M->MONGO DB->SQL DATABASE->FORMAT OF JSON
+E->EXPRESS JS->JS CODE->BACKEND
+R->REATC JS->JSX CODE
+N->USED TO RUN PROJECT/WEBSITE
+
+ORDER:
+1)NODE JS(ENVIRONMENT)
+2)REACT JS(FRONTEND)
+3)EXPRESS JS(BACKEND)
+4)MONGO DB(DATABASE)
+_____________________________________________________________________________________________________________
+REACT:
+* IT IS LIBRARY
+* WE CAN USE OUR RESPECTIVE (i.e CHOOSEN)LIBRARIES
+* CAN IMPORT EXTERNAL LIBRARIES AND INSERT INTO THE REACT
+* ALWAYS A RESPONSIVE SITE
+_____________________________________________________________________________________________________________
