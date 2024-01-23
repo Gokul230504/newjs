@@ -3,7 +3,7 @@ function submitform(message,database)
     setTimeout(function(){
         console.log(message)
         database();
-    },1000)
+    },10000)
 }
 function db()
 {
